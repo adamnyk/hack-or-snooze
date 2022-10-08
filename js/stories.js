@@ -165,7 +165,9 @@ async function starClick(evt) {
 	}
 	if ($tgt.hasClass("fa-regular")) {
 		await currentUser.removeFavorite(story);
-		putFavoritesOnPage();
+		if ($favoritesList.css("display") !== "none") {
+			putFavoritesOnPage();
+		}
 	}
 }
 
