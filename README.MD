@@ -7,6 +7,7 @@ Users can create their own user profile, create and manage their favorites, and 
 
 ## ToDo
 - jasmine testing
+- infinite scroll
 
 ## Further Study
 - Add some error handling for when a username has already been taken or if credentials are incorrect!
